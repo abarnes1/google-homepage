@@ -1,6 +1,10 @@
 body {
     margin: 0px;
 }
+main {
+    width: 100%;
+    height: 100%;
+}
 nav {
     height: 50px;
     background-color: crimson;
@@ -28,9 +32,67 @@ footer {
 
 #img-div {
     background-color: black;
+    padding-top: 10%;
 }
 
 #img-main {
     display: block;
     margin: 0px auto;
+}
+
+#search-box-div {
+    margin: 0px auto;
+    padding: 20px;
+    background-color: darkgoldenrod;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#search-box-left {
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#search-box-center{
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+    max-width: 500px;
+    min-width: 200px;
+}
+
+#search-box-right {
+    border-width: 1px 1px 1px 0px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#search-button-div {
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.button-main {
+    background-color: blue;
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+}
+
+#extra-text-1 {
+    padding: 10px;
+    text-align: center;
+    height: 100%;
+    background-color: darkolivegreen;
 }

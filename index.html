@@ -1,5 +1,6 @@
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="/styles/main.css" rel="stylesheet">
   </head>
   <body id="flex-parent">
@@ -7,18 +8,32 @@
       nav bar
     </nav>
     <main>
-      <div>
-        <div id="img-div">
-          <img id="img-main" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="the google logo">
-        </div>
-        <div id="search-div">
-          <label for="search-terms">?</label>
-          <input id="search-terms" type="text" placeholder="text box here">
-        </div>
+      <div id="img-div">
+        <img id="img-main" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="the google logo">
+      </div>
+
+      <div id="search-box-div">
+          <span id="search-box-left" class="material-icons">search</span>
+          <input id="search-box-center" type="text" placeholder="text box here">
+          <span id="search-box-right" class="material-icons">mic</span>
+      </div>
+
+      <div id="search-button-div">
+        <button class="button-main">Button 1</button>
+        <button class="button-main">Button 2</button>
+      </div>
+
+      <div id="extra-text-1">
+        extra text
       </div>
     </main>
     <footer>
-      footer bar
+      <div>
+        footer text 1
+      </div>
+      <div>
+        footer bar
+      </div>
     </footer>
   </body>
 </html>
