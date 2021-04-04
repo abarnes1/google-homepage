@@ -4,6 +4,7 @@ nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav ul {
@@ -11,9 +12,8 @@ nav ul {
 }
    
 nav li {
-       display: inline;
+    display: inline;
 }
-
 
 #nav-left {
     float: left;
@@ -23,4 +23,5 @@ nav li {
 #nav-right {
     float: right;
     padding-right: 25px;
+    text-align: center;
 }
