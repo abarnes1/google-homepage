@@ -89,12 +89,12 @@ a:hover {
 
 .button-main:hover {
     box-shadow: -1px -1px 1px 1px rgb(230, 226, 226), 1px 1px 1px 1px rgb(230, 226, 226);
+    color: #202124;
 }
 
 #extra-text-1 {
     padding: 10px;
     text-align: center;
-    /* background-color: darkolivegreen; */
     flex-grow: 1;
     width: 100%;
     box-sizing: border-box;

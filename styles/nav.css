@@ -1,6 +1,5 @@
 nav {
     height: 50px;
-    background-color: crimson;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -15,13 +14,46 @@ nav li {
     display: inline;
 }
 
+.nav-link {
+    color: rgb(0, 0, 0, 0.87);
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
+
 #nav-left {
-    float: left;
-    padding-left: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-left-item {
+    padding-left: 15px;
+    margin: 5px;
 }
 
 #nav-right {
-    float: right;
-    padding-right: 25px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.nav-right-item {
+    padding-right: 10px;
+    margin: 5px;
+}
+
+#apps {
+    font-size: 24px;
+    font-family: "Material Icons";
+    color: grey;
+}
+
+#apps:hover {
+    text-decoration: none;
+}
+
+#sign-in {
+    background-color: rgb(26, 115, 232);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
